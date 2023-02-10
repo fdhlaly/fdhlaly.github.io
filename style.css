@@ -1,10 +1,15 @@
+.nav-item:hover {
+  background-color: #b0f7cb;
+  border-radius: 5px;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #b0f7cb;
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #b0f7cb;
 }
 section {
   padding-top: 5rem;
