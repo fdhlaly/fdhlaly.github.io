@@ -1,3 +1,15 @@
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #198754;
+}
+
 .nav-item:hover {
   background-color: #b0f7cb;
   border-radius: 5px;
@@ -15,10 +27,8 @@ section {
   padding-top: 5rem;
 }
 
-.gallery-img {
-  width: 100%;
-}
-
-#gallery .row > * {
-  padding: 0;
+.card:hover {
+  box-shadow: 9px 11px 20px 3px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 9px 11px 20px 3px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 9px 11px 20px 3px rgba(0, 0, 0, 0.57);
 }
